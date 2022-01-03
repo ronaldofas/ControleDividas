@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{C160C1D6-4456-4E88-AAFD-657FCA95C613}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{24B0D941-C4A2-4DDF-85FF-B20CA541CD65}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infra", "Infra", "{FD3CE783-9C13-4045-8FE9-F27D97377056}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{7C4AA70A-2D0B-4D49-9149-1A40FAC72FEA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{D6BE4D88-70C7-402D-B5B8-94EAA186DF1F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{CC640714-4B07-4250-8491-7F93F25E21C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebAPI", "WebAPI", "{1F4459B4-A856-4DCC-845F-2724ADA4DEF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9E57F4DE-B670-4BCE-857D-AED5DCD767D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E57F4DE-B670-4BCE-857D-AED5DCD767D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E57F4DE-B670-4BCE-857D-AED5DCD767D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E57F4DE-B670-4BCE-857D-AED5DCD767D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E57F4DE-B670-4BCE-857D-AED5DCD767D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C4AA70A-2D0B-4D49-9149-1A40FAC72FEA} = {FD3CE783-9C13-4045-8FE9-F27D97377056}
+		{D6BE4D88-70C7-402D-B5B8-94EAA186DF1F} = {FD3CE783-9C13-4045-8FE9-F27D97377056}
+		{CC640714-4B07-4250-8491-7F93F25E21C5} = {FD3CE783-9C13-4045-8FE9-F27D97377056}
+		{9E57F4DE-B670-4BCE-857D-AED5DCD767D6} = {24B0D941-C4A2-4DDF-85FF-B20CA541CD65}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D842B99-B2B4-4EC6-9DB7-275D23174B74}
+	EndGlobalSection
+EndGlobal
