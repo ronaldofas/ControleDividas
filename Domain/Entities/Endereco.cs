@@ -16,5 +16,51 @@ namespace Domain.Entities
         public string CEP { get; set; }
 
         public virtual Cliente cliente { get; set; }
+
+        protected Endereco(){ }
+
+        public Endereco(
+            string logradouro, string numero, string bairro, string cidade, string estado, string complemento,
+            string cep)
+        {
+            Logradouro = logradouro;
+            Numero = numero;
+            Bairro = bairro;
+            Cidade = cidade;
+            Estado = estado;
+            Complemento = complemento;
+            CEP = cep;
+        }
+
+        public void AlterarLogradouro(string endereco, string numero)
+        {
+            Logradouro = endereco;
+            Numero = numero;
+        }
+
+        public void AlterarBairro(string bairro)
+        {
+            Bairro = bairro;
+        }
+
+        public void AlterarCidade(string cidade)
+        {
+            Cidade = cidade;
+        }
+
+        public void AlterarEstado(string estado)
+        {
+            Estado = estado;
+        }
+
+        public void AlterarComplemento(string complemento)
+        {
+            Complemento = complemento;
+        }
+
+        public void AlterarCep(string cep)
+        {
+            CEP = cep;
+        }
     }
 }

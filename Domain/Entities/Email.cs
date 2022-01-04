@@ -14,6 +14,14 @@ namespace Domain
 
         protected Email() { }
 
+        public Email(string email)
+        {
+            EnderecoEmail = email;
+        }
 
+        public void AlterarEmail(string email)
+        {
+            EnderecoEmail = email;
+        }
     }
 }

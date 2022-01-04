@@ -19,5 +19,15 @@ namespace Domain.Entities
             Nome = nome;
             Endereco = endereco;
         }
+
+        public void AlterarNome(string nome)
+        {
+            Nome = nome;
+        }
+
+        public void AlterarEndereco(Endereco endereco)
+        {
+            Endereco = endereco;
+        }
     }
 }

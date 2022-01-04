@@ -9,6 +9,20 @@ namespace Domain
         public string DDD { get; set; }
         public string Numero { get; set; }
 
-        public Cliente cliente { get; set; }
+        public Cliente Cliente { get; set; }
+
+        protected Telefone() { }
+
+        public Telefone(string ddd, string telefone)
+        {
+            DDD = ddd;
+            Numero = telefone;
+        }
+
+        public void AlterarTelefone(string ddd, string telefone)
+        {
+            DDD = ddd;
+            Numero = telefone;
+        }
     }
 }
